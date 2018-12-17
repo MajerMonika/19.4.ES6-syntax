@@ -2,7 +2,7 @@
 const hello = 'Hello';
 const world = 'World';	
 
-console.log(`${hello} ${world}!`)
+console.log(`${hello} ${world}!`);
 
 
 
@@ -18,7 +18,7 @@ const average = (...numbers) => numbers.reduce((previous, current) => previous +
 
 console.log(average(1))
 console.log(average(1, 3)) 
-console.log(average(1, 3, 6, 6))
+console.log(average(1, 3, 6, 6));
 
 // Zadanie 4
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
