@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.js --watch --out-file script-compiled.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/MajerMonika/19.4.ES6-syntax/issues"
   },
-  "homepage": "https://github.com/MajerMonika/19.4.ES6-syntax#readme"
+  "homepage": "https://github.com/MajerMonika/19.4.ES6-syntax#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
 }
